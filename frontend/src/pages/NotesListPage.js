@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import ListItem from '../components/ListItem.tsx'
-import AddButton from '../components/AddButton.tsx'
+import ListItem from '../components/ListItem'
+import AddButton from '../components/AddButton'
 
 const NotesListPage = () => {
     let [notes, setNotes] = useState([])

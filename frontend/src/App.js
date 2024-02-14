@@ -4,9 +4,9 @@ import {
   Routes
  } from "react-router-dom";
 import './App.css';
-import Header from './components/Header.tsx'
-import NotesListPage from './pages/NotesListPage.tsx'
-import NotePage from './pages/NotePage.tsx'
+import Header from './components/Header'
+import NotesListPage from './pages/NotesListPage'
+import NotePage from './pages/NotePage'
 
 function App() {
   return (
